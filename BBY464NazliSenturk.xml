@@ -1,0 +1,1271 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/GlKOGMGQWbXpOt9z1tHGo#"
+     xml:base="http://webprotege.stanford.edu/project/GlKOGMGQWbXpOt9z1tHGo"
+     xmlns:webprotege="http://webprotege.stanford.edu/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/GlKOGMGQWbXpOt9z1tHGo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9PA9m2a6fKzkWGRj7hQpoc -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9PA9m2a6fKzkWGRj7hQpoc">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>hasAccommodation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBXxNqqD2IuLO9KoDGeWiVT -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBXxNqqD2IuLO9KoDGeWiVT">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8lioGtYnxisE5kL8zQTxag"/>
+        <rdfs:label>hasCafeteria</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC4rosPbAaDFhdesN2Fo0df -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RC4rosPbAaDFhdesN2Fo0df">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8wtALcfGk3l6QrDosZAAqu"/>
+        <rdfs:label>hasExhibition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD03mRIOBTKXZUjuJETA1Sn -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RD03mRIOBTKXZUjuJETA1Sn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCyR1WiZkIubky9Wt7cOQKA"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDJ2MO4MjTbTb419xqnmd5c"/>
+        <rdfs:label>hasGallery</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDad1EkRECVON8orWFAcrxO -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDad1EkRECVON8orWFAcrxO">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RC0Q4LVX5F25LYSF0MEG2yT"/>
+        <rdfs:label>hasWorkshop</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8WwS04pKwVxzmeqqYtTfH3 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8WwS04pKwVxzmeqqYtTfH3">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <dc:description xml:lang="en">Size of object in the museum</dc:description>
+        <rdfs:label>ObjectSize</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8YOJ0OoHDXzIANYv3XakAn -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8YOJ0OoHDXzIANYv3XakAn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <dc:description xml:lang="en">Type of object in the museum</dc:description>
+        <dc:type xml:lang="tr">ahşap</dc:type>
+        <dc:type xml:lang="tr">cam</dc:type>
+        <dc:type xml:lang="en">ceramic</dc:type>
+        <dc:type xml:lang="tr">demir</dc:type>
+        <dc:type xml:lang="en">glass</dc:type>
+        <dc:type xml:lang="en">iron</dc:type>
+        <dc:type xml:lang="tr">seramik</dc:type>
+        <dc:type xml:lang="en">wooden</dc:type>
+        <rdfs:label>ObjectType</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8h1DB3XjSAUnbkVpr9qlxB -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8h1DB3XjSAUnbkVpr9qlxB">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <dc:description xml:lang="en">Donation year of object in the museum</dc:description>
+        <rdfs:label>DonationYearOfObject</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9MwPHuvnKX9Sx1VPYu0DhM -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9MwPHuvnKX9Sx1VPYu0DhM">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Height of object in the museum</dc:description>
+        <rdfs:label>HighOfObject</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBU2cpP4AC0PzjU1u2TT9Fi -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBU2cpP4AC0PzjU1u2TT9Fi">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <dc:description xml:lang="en">Name of object in the museum</dc:description>
+        <rdfs:label>ObjectName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBiB8xxSBl7iVOLyB1kEH5g -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBiB8xxSBl7iVOLyB1kEH5g">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <dc:description xml:lang="en">Depth of objects found in the museum</dc:description>
+        <rdfs:label>DepthOfObject</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R77DgwlCbnQijTDnef0awZS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R77DgwlCbnQijTDnef0awZS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC2QGl9SfmOUkqOm6zbPlzT"/>
+        <rdfs:label>Cars</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7TXPeH2VlDSSDoEJWv3dHj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7TXPeH2VlDSSDoEJWv3dHj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ayVxr2yxjB0u1UUIuz1zH"/>
+        <rdfs:label>ShockTool</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7XxHxD3e6gPEZw5pnbPjR7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7XxHxD3e6gPEZw5pnbPjR7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9DrLvGfNFmTEkCVaGImtx4"/>
+        <rdfs:label>Aviation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7wZ975ku6wJTvivK7li598 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7wZ975ku6wJTvivK7li598">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9hR9fyA4R0ygoSifvnjB5B"/>
+        <rdfs:label>CraftsmenStreet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R80dlfHzxrkjDjELmsFWYDw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R80dlfHzxrkjDjELmsFWYDw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC9FPCt1kaHQpEcaPjwvw8l"/>
+        <rdfs:label>Engines</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8JlUYCGhV6VlZqjITfPaFu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8JlUYCGhV6VlZqjITfPaFu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC9FPCt1kaHQpEcaPjwvw8l"/>
+        <rdfs:label>Printing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8YhbNQkKTA3Z6WDtiuk1Ky -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8YhbNQkKTA3Z6WDtiuk1Ky">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R80dlfHzxrkjDjELmsFWYDw"/>
+        <rdfs:label>CrosleyGasEngine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8fL44T979Oqn11bYhATL1y -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8fL44T979Oqn11bYhATL1y">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8uV4so3cx23NIB9kGMlqQS"/>
+        <rdfs:label>Minneapolis-Moline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8lioGtYnxisE5kL8zQTxag -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8lioGtYnxisE5kL8zQTxag">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUZN1KnYdYJzHgfkwVuYXn"/>
+        <rdfs:label>FirstFloorCHN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8uV4so3cx23NIB9kGMlqQS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8uV4so3cx23NIB9kGMlqQS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBoGSZoXMwQil4ujkyWs7fF"/>
+        <rdfs:label>Agriculture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8wtALcfGk3l6QrDosZAAqu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8wtALcfGk3l6QrDosZAAqu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC9FPCt1kaHQpEcaPjwvw8l"/>
+        <rdfs:label>TemporaryExibitationGallery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R97K5fgVYpFgphuCzLZm1BK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R97K5fgVYpFgphuCzLZm1BK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RRmJrFXJRpFvLxzMiDOddw"/>
+        <rdfs:label>ChildBike</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9DrLvGfNFmTEkCVaGImtx4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9DrLvGfNFmTEkCVaGImtx4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RXcYtpioEPdvs3aWKrGYZl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FirstFloorSHN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Mgfm8GDdNIn4nptxDdxR1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Mgfm8GDdNIn4nptxDdxR1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R77DgwlCbnQijTDnef0awZS"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCaw1dSv99WT2COckys4Q0w"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ford&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ayVxr2yxjB0u1UUIuz1zH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9ayVxr2yxjB0u1UUIuz1zH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBoGSZoXMwQil4ujkyWs7fF"/>
+        <rdfs:label>MedicineAndPharmacy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9hR9fyA4R0ygoSifvnjB5B -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9hR9fyA4R0ygoSifvnjB5B">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUZN1KnYdYJzHgfkwVuYXn"/>
+        <rdfs:label>GroundFloorCHN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB6w3QioN6j43n0xqHbudYz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB6w3QioN6j43n0xqHbudYz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9hR9fyA4R0ygoSifvnjB5B"/>
+        <rdfs:label>Dolls&apos;Houses</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB8Eo3qJqfxyc4FzmjpR8hI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB8Eo3qJqfxyc4FzmjpR8hI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9hR9fyA4R0ygoSifvnjB5B"/>
+        <rdfs:label>AtaturkAndAnkara</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBBxvObe89LO57J503aGBxr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBBxvObe89LO57J503aGBxr">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9DrLvGfNFmTEkCVaGImtx4"/>
+        <rdfs:label>EverydayLife</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBdycDUaxUeh3eI8YWCKrlg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBdycDUaxUeh3eI8YWCKrlg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RmJiOzaDQUOZRcIGLP2MM"/>
+        <rdfs:label>NSU601TS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBgs2PBqShliz6MyHeCelg5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBgs2PBqShliz6MyHeCelg5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9hR9fyA4R0ygoSifvnjB5B"/>
+        <rdfs:label>Toys</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBoGSZoXMwQil4ujkyWs7fF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBoGSZoXMwQil4ujkyWs7fF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUZN1KnYdYJzHgfkwVuYXn"/>
+        <rdfs:label>LowerFloorCHN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC0Q4LVX5F25LYSF0MEG2yT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC0Q4LVX5F25LYSF0MEG2yT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9DrLvGfNFmTEkCVaGImtx4"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EducationWorkshop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC2QGl9SfmOUkqOm6zbPlzT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC2QGl9SfmOUkqOm6zbPlzT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC9FPCt1kaHQpEcaPjwvw8l"/>
+        <rdfs:label>RoadTransport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC9FPCt1kaHQpEcaPjwvw8l -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC9FPCt1kaHQpEcaPjwvw8l">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RXcYtpioEPdvs3aWKrGYZl"/>
+        <rdfs:label>GroundFloorSHN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCGBzShkPSlKD47H7cawYRR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCGBzShkPSlKD47H7cawYRR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7wZ975ku6wJTvivK7li598"/>
+        <rdfs:label>saddler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCNNEnMmlZsmpDtlCYhlKZy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCNNEnMmlZsmpDtlCYhlKZy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9hR9fyA4R0ygoSifvnjB5B"/>
+        <rdfs:label>HistoryOfRmkMuseum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCaw1dSv99WT2COckys4Q0w -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCaw1dSv99WT2COckys4Q0w">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC2QGl9SfmOUkqOm6zbPlzT"/>
+        <rdfs:label>Quadricycle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCtMvdYXq527PYX6IdQ8Bp1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCtMvdYXq527PYX6IdQ8Bp1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7wZ975ku6wJTvivK7li598"/>
+        <rdfs:label>Hotter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCuT8XjL5tMGhfb7UZwa6B4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCuT8XjL5tMGhfb7UZwa6B4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8lioGtYnxisE5kL8zQTxag"/>
+        <rdfs:label>Maritime</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCyR1WiZkIubky9Wt7cOQKA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCyR1WiZkIubky9Wt7cOQKA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8lioGtYnxisE5kL8zQTxag"/>
+        <rdfs:label>RahmiVKocGallery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD0k3so19HIWlX1X1VldKdL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD0k3so19HIWlX1X1VldKdL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8lioGtYnxisE5kL8zQTxag"/>
+        <rdfs:label>AmericanCollection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD1TlWrgqvAQh4YgekqVyaS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD1TlWrgqvAQh4YgekqVyaS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9DrLvGfNFmTEkCVaGImtx4"/>
+        <rdfs:label>SafranhanBrasserie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDJ2MO4MjTbTb419xqnmd5c -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDJ2MO4MjTbTb419xqnmd5c">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8lioGtYnxisE5kL8zQTxag"/>
+        <rdfs:label>MustafaVKocGallery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDPJeR8LHBBcZEx7j36lFYE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDPJeR8LHBBcZEx7j36lFYE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9DrLvGfNFmTEkCVaGImtx4"/>
+        <rdfs:label>Communication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDfqXV2IBAUPmwd1bbRRAhV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDfqXV2IBAUPmwd1bbRRAhV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7wZ975ku6wJTvivK7li598"/>
+        <rdfs:label>Carpenter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDxYPNb9tktWXKwoX01XJA2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDxYPNb9tktWXKwoX01XJA2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBgs2PBqShliz6MyHeCelg5"/>
+        <rdfs:label>PorcelainDoll</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRmJrFXJRpFvLxzMiDOddw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RRmJrFXJRpFvLxzMiDOddw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC2QGl9SfmOUkqOm6zbPlzT"/>
+        <rdfs:label>Bicycle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RUZN1KnYdYJzHgfkwVuYXn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RUZN1KnYdYJzHgfkwVuYXn">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>PartOfCengelhan</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/index.htm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RViLL7jjjkN8uWwdvZCP9s -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RViLL7jjjkN8uWwdvZCP9s">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9DrLvGfNFmTEkCVaGImtx4"/>
+        <rdfs:label>ScientificInstruments</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RXcYtpioEPdvs3aWKrGYZl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RXcYtpioEPdvs3aWKrGYZl">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>PartOfSafranhan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RYdClL7nqhaF7L2adbrOxB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RYdClL7nqhaF7L2adbrOxB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RpZFpbrKeEk5arHL8M791i"/>
+        <rdfs:label>IndustrialLocomotives</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RayWHuyYUnlxGv8BycuYeE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RayWHuyYUnlxGv8BycuYeE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9hR9fyA4R0ygoSifvnjB5B"/>
+        <rdfs:label>RailTransport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rc5JhJKyR9ceS2njVgVKmx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rc5JhJKyR9ceS2njVgVKmx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ayVxr2yxjB0u1UUIuz1zH"/>
+        <rdfs:label>PharmacySupplies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RkyHZXORLxc2pXe5DvqDNr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RkyHZXORLxc2pXe5DvqDNr">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ayVxr2yxjB0u1UUIuz1zH"/>
+        <rdfs:label>BrainSurgerySet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RmJiOzaDQUOZRcIGLP2MM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RmJiOzaDQUOZRcIGLP2MM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC2QGl9SfmOUkqOm6zbPlzT"/>
+        <rdfs:label>Motobike</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RnUAK2lI68MApFNShWQf8Z -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RnUAK2lI68MApFNShWQf8Z">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBgs2PBqShliz6MyHeCelg5"/>
+        <rdfs:label>Automaton</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Ro6QbhBa1npTMeiXIczclS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Ro6QbhBa1npTMeiXIczclS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9DrLvGfNFmTEkCVaGImtx4"/>
+        <rdfs:label>OldAnkaraOffice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RpZFpbrKeEk5arHL8M791i -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RpZFpbrKeEk5arHL8M791i">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RayWHuyYUnlxGv8BycuYeE"/>
+        <rdfs:label>ModelsOfLocomotives</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R4OaDeo5VnyuvR17sFq3V -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R4OaDeo5VnyuvR17sFq3V">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RD0k3so19HIWlX1X1VldKdL"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC4rosPbAaDFhdesN2Fo0df"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8lioGtYnxisE5kL8zQTxag"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R8WwS04pKwVxzmeqqYtTfH3 xml:lang="en">5cm</webprotege:R8WwS04pKwVxzmeqqYtTfH3>
+        <webprotege:R8h1DB3XjSAUnbkVpr9qlxB xml:lang="en">2007</webprotege:R8h1DB3XjSAUnbkVpr9qlxB>
+        <webprotege:RBiB8xxSBl7iVOLyB1kEH5g xml:lang="en">7cm</webprotege:RBiB8xxSBl7iVOLyB1kEH5g>
+        <dc:description xml:lang="en">these boxes were used for biscuits</dc:description>
+        <dc:title xml:lang="en">boxes</dc:title>
+        <dc:type xml:lang="en">iron</dc:type>
+        <rdfs:label>object1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R4U3WmqKoNeN5iSCf7r2cf -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R4U3WmqKoNeN5iSCf7r2cf">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC0Q4LVX5F25LYSF0MEG2yT"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDad1EkRECVON8orWFAcrxO"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9DrLvGfNFmTEkCVaGImtx4"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>workshop1</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_hafta_sonu_egitim_atolyeleri.htm"/>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_ilkogretim_Okullari_Egitim_Paketi.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7PaDUVuCh3A49yH3BI4r6h -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7PaDUVuCh3A49yH3BI4r6h">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8JlUYCGhV6VlZqjITfPaFu"/>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">iron</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:R8h1DB3XjSAUnbkVpr9qlxB xml:lang="en">2007</webprotege:R8h1DB3XjSAUnbkVpr9qlxB>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">DrillingMachine</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <dc:creator xml:lang="en">KarlKrause</dc:creator>
+        <rdfs:label>print3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7TVMIvnfCPgIhh3how5NJL -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7TVMIvnfCPgIhh3how5NJL">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RD0k3so19HIWlX1X1VldKdL"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RD03mRIOBTKXZUjuJETA1Sn"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8lioGtYnxisE5kL8zQTxag"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R8WwS04pKwVxzmeqqYtTfH3 xml:lang="en">35cm</webprotege:R8WwS04pKwVxzmeqqYtTfH3>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">iron</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:R9MwPHuvnKX9Sx1VPYu0DhM xml:lang="en">10cm</webprotege:R9MwPHuvnKX9Sx1VPYu0DhM>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">modelOfTrain</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <rdfs:label>object2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7fjZkXckW4n2HcpEpCClyA -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7fjZkXckW4n2HcpEpCClyA">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7XxHxD3e6gPEZw5pnbPjR7"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC4rosPbAaDFhdesN2Fo0df"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9DrLvGfNFmTEkCVaGImtx4"/>
+            </owl:Restriction>
+        </rdf:type>
+        <owl:sameAs rdf:resource="http://webprotege.stanford.edu/R82e1VRp6rIjc46iVwFfAUw"/>
+        <owl:sameAs rdf:resource="http://webprotege.stanford.edu/RCDEtkfK8XyYMLNAu2y9b0l"/>
+        <owl:sameAs rdf:resource="http://webprotege.stanford.edu/RCxv9WssldDLBLCpuWLQh4S"/>
+        <webprotege:R8WwS04pKwVxzmeqqYtTfH3 xml:lang="en">30cm</webprotege:R8WwS04pKwVxzmeqqYtTfH3>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">wooden</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:R9MwPHuvnKX9Sx1VPYu0DhM xml:lang="en">6cm</webprotege:R9MwPHuvnKX9Sx1VPYu0DhM>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">ModelOfFokkerDVII</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <rdfs:label>aircraft3</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_havacilik.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R82e1VRp6rIjc46iVwFfAUw -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R82e1VRp6rIjc46iVwFfAUw">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7XxHxD3e6gPEZw5pnbPjR7"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC4rosPbAaDFhdesN2Fo0df"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9DrLvGfNFmTEkCVaGImtx4"/>
+            </owl:Restriction>
+        </rdf:type>
+        <owl:sameAs rdf:resource="http://webprotege.stanford.edu/RCDEtkfK8XyYMLNAu2y9b0l"/>
+        <owl:sameAs rdf:resource="http://webprotege.stanford.edu/RCxv9WssldDLBLCpuWLQh4S"/>
+        <webprotege:R8WwS04pKwVxzmeqqYtTfH3 xml:lang="en">30cm</webprotege:R8WwS04pKwVxzmeqqYtTfH3>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">wooden</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:R9MwPHuvnKX9Sx1VPYu0DhM xml:lang="en">5cm</webprotege:R9MwPHuvnKX9Sx1VPYu0DhM>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">ModelOfAlbatros</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <rdfs:label>aircraft2</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_havacilik.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8B9RpcbCgvgnrjcJh0MHoy -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8B9RpcbCgvgnrjcJh0MHoy">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Rc5JhJKyR9ceS2njVgVKmx"/>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">glass</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">porcelain</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">wooden</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">Pharmacy Supplies</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <dc:description xml:lang="en">Most of the objects related to pharmacy bottles, pharmacy jars, mortars used in medicine, and pharmacy dating back to the early 20th century can be seen</dc:description>
+        <dc:description xml:lang="tr">Çoğunluğu 20. Yüzyıl başına tarihlenen ecza şişeleri, ecza kavanozları, ilaç yapımında kullanılan havan ve eczacılık ile ilgili daha pek çok yer alır</dc:description>
+        <rdfs:label>pharmacy</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_tip_ve_eczacilik.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Cd87lpXBnZyrsHhUnhHHx -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8Cd87lpXBnZyrsHhUnhHHx">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB8Eo3qJqfxyc4FzmjpR8hI"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC4rosPbAaDFhdesN2Fo0df"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9hR9fyA4R0ygoSifvnjB5B"/>
+            </owl:Restriction>
+        </rdf:type>
+        <owl:sameAs rdf:resource="http://webprotege.stanford.edu/RC2R0dPPiITWjY2SlXamp8i"/>
+        <owl:sameAs rdf:resource="http://webprotege.stanford.edu/RCnZ2TTk80cUWgx4tMAcBrc"/>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">His clothes</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">His office materials</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">personal objects</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <dc:contributor xml:lang="en">Yurdakul</dc:contributor>
+        <dc:description xml:lang="en">This part is devoted to his daily neccessities</dc:description>
+        <rdfs:label>Ataturk</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_ataturk.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8nIrGD16MHt6UL5OLNVPEV -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8nIrGD16MHt6UL5OLNVPEV">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCuT8XjL5tMGhfb7UZwa6B4"/>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">wooden</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:R8h1DB3XjSAUnbkVpr9qlxB xml:lang="en">2007</webprotege:R8h1DB3XjSAUnbkVpr9qlxB>
+        <dc:creator xml:lang="en">Erol Ersan</dc:creator>
+        <dc:description xml:lang="en">This is a model of fishing boat</dc:description>
+        <dc:title xml:lang="en">BluenesoNewFoundland</dc:title>
+        <rdfs:label>maritimeobject1</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_denizcilik.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8oRB79KBRzOIZC4BlVBAAG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8oRB79KBRzOIZC4BlVBAAG">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB6w3QioN6j43n0xqHbudYz"/>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">cook doll in dolls&apos; house</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">dolls&apos; house</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">gardener doll in dolls&apos; house</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <dc:description xml:lang="en">this part is devoted various dolls&apos; houses</dc:description>
+        <rdfs:label>doolls&apos;</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_oyuncaklar.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8q692RTLf1xgzoMvHHOBXn -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8q692RTLf1xgzoMvHHOBXn">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RnUAK2lI68MApFNShWQf8Z"/>
+        <webprotege:R8h1DB3XjSAUnbkVpr9qlxB rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</webprotege:R8h1DB3XjSAUnbkVpr9qlxB>
+        <dc:description xml:lang="en">Interesting British automaton from the 1970s</dc:description>
+        <rdfs:label>automaton1</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_oyuncaklar.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8tcKJxIuai9wIozFvU2kOS -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8tcKJxIuai9wIozFvU2kOS">
+        <rdfs:label>cafe</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_Yeme_-_icme.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8uiESVEZlV8Qq074B37OFF -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8uiESVEZlV8Qq074B37OFF">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBBxvObe89LO57J503aGBxr"/>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">iron</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">weighing</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <dc:description xml:lang="tr">Geo.Salter&amp;Co. Ltd. tarafından 20. yy&apos;ın başlarında üretilmiş tartı</dc:description>
+        <dc:description xml:lang="en">The Weighing which was produced by Geo.Salter Co. Ltd in the early 20th century</dc:description>
+        <rdfs:label>evrydaylifeobject2</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_gunluk_yasam.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8vawh3gsnJDYpfkGiJsM0 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8vawh3gsnJDYpfkGiJsM0">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RkyHZXORLxc2pXe5DvqDNr"/>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">steel</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">wooden</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <dc:description xml:lang="tr">1800&apos;lerde Grangeret tarafından Paris&apos;te, nadir Fransız abanoz ağacı ve cilalanmış çelik kullanılarak yapılmış beyin ameliyatı seti.</dc:description>
+        <dc:description xml:lang="en">A rare French ebony tree and a set of brain surgery was made of was polished steel in 1800 by Grangeret in Paris</dc:description>
+        <rdfs:label>surgeryset</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_tip_ve_eczacilik.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R94031JrCdG0EyxKMUamTWf -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R94031JrCdG0EyxKMUamTWf">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBBxvObe89LO57J503aGBxr"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC4rosPbAaDFhdesN2Fo0df"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9DrLvGfNFmTEkCVaGImtx4"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">wooden</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">Piano</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roya M. Surdo</dc:contributor>
+        <dc:description xml:lang="en">This small-tailed piano was made by the Viennese L. Zähnle in 1880 with a light rose from the tree</dc:description>
+        <dc:description xml:lang="tr">Viyanalı L. Zähnle&apos;la tarafından 1880&apos;de açık renk gül ağacıdan yapılmış kuyruklu küçük piyanodur.</dc:description>
+        <rdfs:label>evrydaylifeobject1</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_gunluk_yasam.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9VJWQTfj2goIR3VeEC77pm -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9VJWQTfj2goIR3VeEC77pm">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9Mgfm8GDdNIn4nptxDdxR1"/>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">iron</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">Ford Touring</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <dc:description xml:lang="tr">1918 yılında üretilmeye başlanmış Ford marka T model araç.</dc:description>
+        <dc:description xml:lang="en">The ford brand t model car which was started to be produced in 1918</dc:description>
+        <rdfs:label>ford1</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_karayolu_ulasimi.htm"/>
+        <rdfs:seeAlso rdf:resource="https://commons.wikimedia.org/wiki/File:1921_Ford_Model_T_Touring_3.jpg"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9skPdp2tzsYDSnOP2bvRTg -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9skPdp2tzsYDSnOP2bvRTg">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8wtALcfGk3l6QrDosZAAqu"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC4rosPbAaDFhdesN2Fo0df"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RC9FPCt1kaHQpEcaPjwvw8l"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RD03mRIOBTKXZUjuJETA1Sn"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RC9FPCt1kaHQpEcaPjwvw8l"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:description xml:lang="tr">Bazı objelerin sergilendiği geçici sergi salonu</dc:description>
+        <dc:description xml:lang="en">Temporary exhibition hall where some objects are exhibited</dc:description>
+        <rdfs:label>exibitation1</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_sergiler.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9t7N0fpyRqKQHhvU55cdLY -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9t7N0fpyRqKQHhvU55cdLY">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R80dlfHzxrkjDjELmsFWYDw"/>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">iron</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:R8h1DB3XjSAUnbkVpr9qlxB xml:lang="en">2010</webprotege:R8h1DB3XjSAUnbkVpr9qlxB>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">DieselGasMachine</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <dc:creator xml:lang="en">Junkers</dc:creator>
+        <rdfs:label>machine3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBQXzXwnvS9F3Yg8pPfWPFX -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBQXzXwnvS9F3Yg8pPfWPFX">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R80dlfHzxrkjDjELmsFWYDw"/>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">iron</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:R8h1DB3XjSAUnbkVpr9qlxB xml:lang="en">2009</webprotege:R8h1DB3XjSAUnbkVpr9qlxB>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">gasEngine</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <rdfs:label>machine1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBQg8TGdfTd0hJ68PEYqITs -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBQg8TGdfTd0hJ68PEYqITs">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDPJeR8LHBBcZEx7j36lFYE"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC4rosPbAaDFhdesN2Fo0df"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9DrLvGfNFmTEkCVaGImtx4"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">iron</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">Telephone</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <dc:creator xml:lang="en">Parkveien</dc:creator>
+        <rdfs:label>Comunication1</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_koleksiyonumuz_iletisim.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC2R0dPPiITWjY2SlXamp8i -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC2R0dPPiITWjY2SlXamp8i">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDJ2MO4MjTbTb419xqnmd5c"/>
+        <webprotege:RBXxNqqD2IuLO9KoDGeWiVT rdf:resource="http://webprotege.stanford.edu/RDEQGLLricsFXVHzUfGa4cO"/>
+        <webprotege:RC4rosPbAaDFhdesN2Fo0df rdf:resource="http://webprotege.stanford.edu/RWE6rI5VcSDn8UrIuFMmKL"/>
+        <webprotege:RD03mRIOBTKXZUjuJETA1Sn rdf:resource="http://webprotege.stanford.edu/RWE6rI5VcSDn8UrIuFMmKL"/>
+        <dc:description xml:lang="en">This part is devoted to his daily neccessities</dc:description>
+        <dc:title xml:lang="en">His books</dc:title>
+        <dc:title xml:lang="en">His casual clothes</dc:title>
+        <dc:title xml:lang="en">His office materials</dc:title>
+        <rdfs:label xml:lang="en">Gallery1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC5LNew7acIjEq4V4nQZ61M -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC5LNew7acIjEq4V4nQZ61M">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDPJeR8LHBBcZEx7j36lFYE"/>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">wooden</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">radio</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <rdfs:label>communication2</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_koleksiyonumuz_iletisim.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC7OGCekyR4r7j30ZniAHfe -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC7OGCekyR4r7j30ZniAHfe">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8JlUYCGhV6VlZqjITfPaFu"/>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">iron</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">bookPrintingMachine</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <dc:creator xml:lang="en">KarlKrause</dc:creator>
+        <dc:description xml:lang="tr">Karl Krause tarafından tasarlanan kitap maskı makinesidir</dc:description>
+        <dc:description xml:lang="en">This book printing machine was designed by karl Krause</dc:description>
+        <rdfs:label>print1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCAPDWYXGXZl9umfExaWILp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCAPDWYXGXZl9umfExaWILp">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RYdClL7nqhaF7L2adbrOxB"/>
+        <webprotege:R8WwS04pKwVxzmeqqYtTfH3 xml:lang="en">40cm</webprotege:R8WwS04pKwVxzmeqqYtTfH3>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">iron</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:R9MwPHuvnKX9Sx1VPYu0DhM xml:lang="en">13cm</webprotege:R9MwPHuvnKX9Sx1VPYu0DhM>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">TCDD 46235 Locomotive</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <dc:creator xml:lang="en">Ismail Atsurer</dc:creator>
+        <dc:description xml:lang="en">Model of TCDD 46235 Locomotive</dc:description>
+        <rdfs:label>locomotive2</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_rayli_ulasim.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCDEtkfK8XyYMLNAu2y9b0l -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCDEtkfK8XyYMLNAu2y9b0l">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7XxHxD3e6gPEZw5pnbPjR7"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC4rosPbAaDFhdesN2Fo0df"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9DrLvGfNFmTEkCVaGImtx4"/>
+            </owl:Restriction>
+        </rdf:type>
+        <owl:sameAs rdf:resource="http://webprotege.stanford.edu/RCxv9WssldDLBLCpuWLQh4S"/>
+        <webprotege:R8WwS04pKwVxzmeqqYtTfH3 xml:lang="en">30cm</webprotege:R8WwS04pKwVxzmeqqYtTfH3>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">wooden</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:R9MwPHuvnKX9Sx1VPYu0DhM xml:lang="en">5cm</webprotege:R9MwPHuvnKX9Sx1VPYu0DhM>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">modelOfSupermarine</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <rdfs:label>aircraft1</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_havacilik.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCkca30ZUgNT69luQNLLVAg -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCkca30ZUgNT69luQNLLVAg">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R80dlfHzxrkjDjELmsFWYDw"/>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">iron</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">typewriter</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <dc:creator xml:lang="en">Remington</dc:creator>
+        <rdfs:label>machine2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCnZ2TTk80cUWgx4tMAcBrc -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCnZ2TTk80cUWgx4tMAcBrc">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCyR1WiZkIubky9Wt7cOQKA"/>
+        <webprotege:RBXxNqqD2IuLO9KoDGeWiVT rdf:resource="http://webprotege.stanford.edu/RDEQGLLricsFXVHzUfGa4cO"/>
+        <webprotege:RC4rosPbAaDFhdesN2Fo0df rdf:resource="http://webprotege.stanford.edu/RWE6rI5VcSDn8UrIuFMmKL"/>
+        <webprotege:RD03mRIOBTKXZUjuJETA1Sn rdf:resource="http://webprotege.stanford.edu/RWE6rI5VcSDn8UrIuFMmKL"/>
+        <webprotege:RDad1EkRECVON8orWFAcrxO rdf:resource="http://webprotege.stanford.edu/RDEQGLLricsFXVHzUfGa4cO"/>
+        <dc:description xml:lang="en">This part is devoted to his daily neccessities</dc:description>
+        <dc:title xml:lang="en">His books</dc:title>
+        <dc:title xml:lang="en">His casual clothes</dc:title>
+        <dc:title xml:lang="en">His office material</dc:title>
+        <rdfs:label>Gallery2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCxv9WssldDLBLCpuWLQh4S -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCxv9WssldDLBLCpuWLQh4S">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7XxHxD3e6gPEZw5pnbPjR7"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC4rosPbAaDFhdesN2Fo0df"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9DrLvGfNFmTEkCVaGImtx4"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R8WwS04pKwVxzmeqqYtTfH3 xml:lang="en">30cm</webprotege:R8WwS04pKwVxzmeqqYtTfH3>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">wooden</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:R9MwPHuvnKX9Sx1VPYu0DhM xml:lang="en">5cm</webprotege:R9MwPHuvnKX9Sx1VPYu0DhM>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">ModelOfHeller</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <rdfs:label>aircraft4</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_havacilik.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCzxzxEMXQxtPc2j1de44Nu -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCzxzxEMXQxtPc2j1de44Nu">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8fL44T979Oqn11bYhATL1y"/>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">Wheat Grinding Waltz</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <dc:description xml:lang="en">This is a Wheat Grinding Waltz that 20th century was produced in Germany.</dc:description>
+        <rdfs:label>agriculture2</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_tarim.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDEQGLLricsFXVHzUfGa4cO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDEQGLLricsFXVHzUfGa4cO">
+        <rdfs:label>false</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDO3EfMtHBj8IHHfDqLAETI -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDO3EfMtHBj8IHHfDqLAETI">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8YhbNQkKTA3Z6WDtiuk1Ky"/>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">iron</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">crossley Gas Engine</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <dc:description xml:lang="en">Crossley Brothers Ltd. Manufactured in 1904, the brothers have their own designs and are of high quality petrol and diesel power used in industry and agriculture.</dc:description>
+        <dc:description xml:lang="tr">Crossley Kardeşler Ltd. 1904&apos;te üretilmiş, kardeşlerin kendi tasarımları olup sanayi ve tarımda kullanılan fevkalade kaliteli benzinli ve dizel motordur.</dc:description>
+        <rdfs:label>gasengine</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_makineler.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDh26e68IDEOasQ94PPipjK -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDh26e68IDEOasQ94PPipjK">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8fL44T979Oqn11bYhATL1y"/>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">iron</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="tr">1955 Minneapolis-Moline &apos;UTSD&apos;</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <dc:description xml:lang="en">One of the first series tractors were produced by Türk Traktör ve Ziraat Makineleri A.Ş</dc:description>
+        <dc:description xml:lang="en">Türk Traktör ve Ziraat Makineleri A.Ş&apos;  tarafından üretilen ilk seri traktörlerden biri</dc:description>
+        <rdfs:label>agriculture1</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_tarim.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDj69diCIKViTUb6aq0tmP2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDj69diCIKViTUb6aq0tmP2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RYdClL7nqhaF7L2adbrOxB"/>
+        <webprotege:R8WwS04pKwVxzmeqqYtTfH3 xml:lang="en">28cm</webprotege:R8WwS04pKwVxzmeqqYtTfH3>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">iron</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:R8h1DB3XjSAUnbkVpr9qlxB xml:lang="en">2008</webprotege:R8h1DB3XjSAUnbkVpr9qlxB>
+        <webprotege:R9MwPHuvnKX9Sx1VPYu0DhM xml:lang="en">10cm</webprotege:R9MwPHuvnKX9Sx1VPYu0DhM>
+        <dc:description xml:lang="en">A type of locomotive used mostly in shipyards, mines and factories is a working model</dc:description>
+        <dc:description xml:lang="tr">Çoğunlukla tersane, maden ocağı ve fabrikalarda kullanılan tipte bir lokomotifin çalışır durumda modelidir</dc:description>
+        <rdfs:label>locomotive</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_rayli_ulasim.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDyHYaNqWL6aSPGQ4NmN8vO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDyHYaNqWL6aSPGQ4NmN8vO">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDxYPNb9tktWXKwoX01XJA2"/>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">Porcelain</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">Porcelain doll</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nuran Arik</dc:contributor>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulviye Tuzun</dc:contributor>
+        <dc:description xml:lang="en">A collection of porcelain dolls collected from various countries</dc:description>
+        <dc:description xml:lang="tr">Çeşitli ülkelerden toplanmış porselen bebek koleksiyonudur</dc:description>
+        <rdfs:label>P.Doll1</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_oyuncaklar.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RJW0HIJhOB6aS5liLshyrP -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RJW0HIJhOB6aS5liLshyrP">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCuT8XjL5tMGhfb7UZwa6B4"/>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">wooden</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:R8h1DB3XjSAUnbkVpr9qlxB xml:lang="en">2008</webprotege:R8h1DB3XjSAUnbkVpr9qlxB>
+        <dc:description xml:lang="en">This is a model of boat which was used in &apos;african queen&apos; movie</dc:description>
+        <dc:title xml:lang="en">AfricanQueen</dc:title>
+        <rdfs:label>maritimeobject2</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_denizcilik.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RK8kJhtT3gwJQu8E0sDYmW -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RK8kJhtT3gwJQu8E0sDYmW">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R97K5fgVYpFgphuCzLZm1BK"/>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">iron</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PennyFarthing</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <dc:creator xml:lang="en">James Starley</dc:creator>
+        <dc:description xml:lang="tr">1870 lerin başında İngiltere&apos;de James Starley tarafından tasarlanmıştır</dc:description>
+        <dc:description xml:lang="en">This Child bike was designed by James Starley in England at the beginning of the 1870&apos;s</dc:description>
+        <rdfs:label>bike1</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_karayolu_ulasimi.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWE6rI5VcSDn8UrIuFMmKL -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RWE6rI5VcSDn8UrIuFMmKL">
+        <rdfs:label>true</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWKvomon1MoxGDjiN9YG5X -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RWKvomon1MoxGDjiN9YG5X">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7TXPeH2VlDSSDoEJWv3dHj"/>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">iron</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">shockTool</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seyhun Topuz</dc:contributor>
+        <dc:description xml:lang="tr">19. Yüzyıl sonunda Fransa’da üretilmiş bir şok aleti.</dc:description>
+        <dc:description xml:lang="en">Shock tool which was produced in France at the end of the 19. century.</dc:description>
+        <rdfs:label>shocktool</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.rmk-museum.org.tr/cengelhan/turkce/rmk_tip_ve_eczacilik.htm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RhAZWaqiKrTYrlW1ovLD4V -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RhAZWaqiKrTYrlW1ovLD4V">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8JlUYCGhV6VlZqjITfPaFu"/>
+        <webprotege:R8YOJ0OoHDXzIANYv3XakAn xml:lang="en">iron</webprotege:R8YOJ0OoHDXzIANYv3XakAn>
+        <webprotege:RBU2cpP4AC0PzjU1u2TT9Fi xml:lang="en">EnvelopePrintingMachine</webprotege:RBU2cpP4AC0PzjU1u2TT9Fi>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fleet</dc:creator>
+        <rdfs:label>print2</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.3.1) https://github.com/owlcs/owlapi -->
+
